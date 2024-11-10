@@ -1,0 +1,25 @@
+.box{
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+}
+.img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.customgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+}
+.visited{
+    background-color: bisque;
+}
+.nonvisited{
+    background-color: azure;
+}
+.flags-container img{
+    height: 100px;
+    width: 100px;
+
+}
